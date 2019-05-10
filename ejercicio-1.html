@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .element {
+            width: 235px;
+            height: 100px;
+            background-color: white;
+            margin: 15px;
+            display: inline-block;
+            -webkit-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+            box-shadow: 3px 2px 5px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .container :first-child {
+            width: 500px;
+        }
+
+        @media (max-width: 767px) {
+            .container {
+                text-align: center;
+                display: inline-grid;
+            }
+
+            .container :first-child {
+                width: 235px;
+            }
+        }
+    </style>
+
+    <div class="container">
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+        <div class="element"></div>
+
+    </div>
+</body>
